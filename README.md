@@ -9,6 +9,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Living-Material-Programmer-Interview/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Living-Material-Programmer-Interview/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 Welcome to the **Living Material Programmer Interview** starter repository! 🚀 This workspace contains sample interview questions, solutions, and starter templates for candidates working with advanced living materials programming, bio-computational systems, synthetic biology, and engineered living materials (ELMs). 🧪💻
