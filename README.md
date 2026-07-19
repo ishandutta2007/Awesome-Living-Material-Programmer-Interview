@@ -42,3 +42,14 @@ Here's an overview of the files in this repository:
 4. Push your changes back to the repository! 🌟
 
 Happy coding! 💻✨
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Living-Material-Programmer-Interview&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Living-Material-Programmer-Interview&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Living-Material-Programmer-Interview&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Living-Material-Programmer-Interview&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
