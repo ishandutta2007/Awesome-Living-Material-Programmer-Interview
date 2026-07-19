@@ -4,7 +4,17 @@
 
 # 🧬 Awesome Living Material Programmer Interview 🧬
 
-Welcome to the **Living Material Programmer Interview** starter repository! 🚀 This workspace contains sample interview questions, solutions, and starter templates for candidates working with advanced living materials programming and bio-computational systems. 🧪💻
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Living-Material-Programmer-Interview/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Living-Material-Programmer-Interview/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Living-Material-Programmer-Interview?style=flat-square" alt="Issues" /></a>
+</p>
+
+Welcome to the **Living Material Programmer Interview** starter repository! 🚀 This workspace contains sample interview questions, solutions, and starter templates for candidates working with advanced living materials programming, bio-computational systems, synthetic biology, and engineered living materials (ELMs). 🧪💻
+
+### Keywords
+`living materials`, `programmable biology`, `bio-computation`, `synthetic biology`, `software engineering`, `programmer interview`, `engineered living materials`
 
 ---
 
