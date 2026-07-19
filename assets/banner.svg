@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.15); }
+    }
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-10px) translateX(5px); }
+    }
+    @keyframes float-fast {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-15px) translateX(-8px); }
+    }
+    @keyframes wave {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -120; }
+    }
+    .node-pulse {
+      animation: pulse 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .node-pulse-delayed {
+      animation: pulse 4s ease-in-out infinite;
+      animation-delay: 2s;
+      transform-origin: center;
+    }
+    .cell-float1 {
+      animation: float-slow 8s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .cell-float2 {
+      animation: float-fast 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .living-path {
+      stroke: url(#text-gradient);
+      stroke-dasharray: 12, 12;
+      animation: wave 15s linear infinite;
+    }
+    .title-text {
+      font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+      font-weight: 800;
+      fill: url(#text-gradient);
+      letter-spacing: 2px;
+    }
+    .subtitle-text {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 4px;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="200" rx="16" fill="url(#bg-gradient)" />
+  
+  <!-- Living/Organic Pattern (DNA-like waves / connecting nodes) -->
+  <g opacity="0.6">
+    <path class="living-path" d="M -50 150 Q 150 50 350 150 T 750 150 T 900 100" fill="none" stroke-width="2" />
+    <path class="living-path" d="M -50 100 Q 150 180 350 80 T 750 120 T 900 150" fill="none" stroke-width="1.5" opacity="0.5" />
+  </g>
+
+  <!-- Floating organic nodes/cells -->
+  <g class="cell-float1">
+    <circle cx="120" cy="60" r="15" fill="#38bdf8" opacity="0.15" filter="url(#glow)" />
+    <circle cx="120" cy="60" r="6" fill="#38bdf8" class="node-pulse" />
+  </g>
+  <g class="cell-float2">
+    <circle cx="700" cy="140" r="22" fill="#34d399" opacity="0.12" filter="url(#glow)" />
+    <circle cx="700" cy="140" r="8" fill="#34d399" class="node-pulse-delayed" />
+  </g>
+  <g class="cell-float1" style="animation-delay: -3s;">
+    <circle cx="650" cy="50" r="10" fill="#a78bfa" opacity="0.15" filter="url(#glow)" />
+    <circle cx="650" cy="50" r="4" fill="#a78bfa" class="node-pulse" />
+  </g>
+  <g class="cell-float2" style="animation-delay: -1.5s;">
+    <circle cx="150" cy="150" r="12" fill="#f43f5e" opacity="0.12" filter="url(#glow)" />
+    <circle cx="150" cy="150" r="5" fill="#f43f5e" class="node-pulse-delayed" />
+  </g>
+
+  <!-- Decorative network lines -->
+  <line x1="120" y1="60" x2="200" y2="100" stroke="#38bdf8" stroke-width="0.5" opacity="0.3" />
+  <line x1="650" y1="50" x2="700" y2="140" stroke="#a78bfa" stroke-width="0.5" opacity="0.3" />
+
+  <!-- Content -->
+  <g transform="translate(400, 100)" text-anchor="middle">
+    <!-- Main Title -->
+    <text class="title-text" y="-10" font-size="28" filter="url(#glow)">AWESOME LIVING MATERIAL</text>
+    <!-- Subtitle -->
+    <text class="subtitle-text" y="30" font-size="14">PROGRAMMER INTERVIEW</text>
+  </g>
+</svg>
